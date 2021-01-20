@@ -145,5 +145,5 @@ by using the @abstractmethod decorator.
 
 Interfaces:
 ----------
-An abstract class that contains only abstract methods then that is called and interface.
+An abstract class that contains only abstract methods is called an interface.
 
