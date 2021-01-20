@@ -1,10 +1,11 @@
 Polymorphism: "Many forms"
 
 One thing, several forms --> function overloading.
+
 One action, different activities --> function overloading.
 
 
-================================================================
+
 One Action                          Different Activities
 -----------                         ---------------------
 1. Shifting gears                   1. Forward - Drive
@@ -14,7 +15,7 @@ One Action                          Different Activities
                                     2. Close Window
                                     2. Minimize Window
                                     2. Get Dropdown Menu
-==================================================================
+
 
 Duck typing philosophy of Python:
 ---------------------------------
@@ -119,23 +120,23 @@ in the child-class. Look at Method Overridding.py under the OverRiding Folder.
 
 Abstract Classes and Abstract Methods:
 --------------------------------------
-  Abstract Class:
-  ---------------
-    An abstract class is a class from which it is not possible to create and object. Abstract classes  simply act as a
-    template for other classes. Look at abstractclass.py under the Abstract folder.
-    Rule:
-    ----
-        1. Every Abstract Class must be derived from ABC class which is present in abc module.
-        2. An abstract class must contain at least one abstract method.
-    Note:
-    ----
-        Abstract classes can contain both abstract as well as non-abstract methods.
+Abstract Class:
+---------------
+  An abstract class is a class from which it is not possible to create and object. Abstract classes  simply act as a
+  template for other classes. Look at abstractclass.py under the Abstract folder.
+  Rule:
+  ----
+      1. Every Abstract Class must be derived from ABC class which is present in abc module.
+      2. An abstract class must contain at least one abstract method.
+  Note:
+  ----
+      Abstract classes can contain both abstract as well as non-abstract methods.
 
-  Abstract Method:
-  ----------------
-    Sometimes we do not know about implementation but still we declare a method. Such methods are called
-    "Abstract Methods." Such methods have declaration but no implementation.In Python we can declare an abstract method
-    by using the @abstractmethod decorator.
+Abstract Method:
+----------------
+  Sometimes we do not know about implementation but still we declare a method. Such methods are called
+  "Abstract Methods." Such methods have declaration but no implementation.In Python we can declare an abstract method
+  by using the @abstractmethod decorator.
 
 
 Interfaces:
