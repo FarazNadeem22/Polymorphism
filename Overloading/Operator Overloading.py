@@ -2,17 +2,12 @@ class Book:
     def __init__(self, pages):
         self.pages = pages
 
-    # def __add__(self, other):
-    #     return self.pages + other.pages
-
     def __add__(self, other):
         object = Book(self.pages+other.pages)
         return object
 
     def display(self):
         print(self.pages)
-    # def __str__(self):
-    #     return self.pages
 
 b1 = Book(100)
 b2 = Book(100)
