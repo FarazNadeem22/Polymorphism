@@ -23,7 +23,7 @@ At runtime "if it walks like a duck and talks like a duck, it must be a duck," P
 called duck typing philosophy of Python. Look at PolyDuck.py
 
 There is a problem in PolyDuck. What if the object does not contain talk function --> We would get an attribute error.
-What is the solution? use function hasattr(object, attribute_name)
+What is the solution? use function hasattr(object, attribute_name) look at polyduck2.py
 
 
 Overloading:
