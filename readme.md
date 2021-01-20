@@ -35,9 +35,9 @@ Example: + operator can be used for arithmetic addition an string concatenation
 
 Three Types of Overloading: (In Python)
 ----------------------------
-1. Operator overloading
-2. Function overloading
-3. Constructor overloading
+1. Operator overloading - possible
+2. Function overloading - not possible
+3. Constructor overloading - not possible
 
 Operator Overloading:
 ---------------------
