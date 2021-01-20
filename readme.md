@@ -46,6 +46,7 @@ use __add__(self, other) functions. Look at Operator Overloading.py under direct
 
 FROM:
 https://www.geeksforgeeks.org/operator-overloading-in-python/
+
     Binary Operators:
     ----------------
         Operator    	 Magic Method
@@ -122,21 +123,21 @@ Abstract Classes and Abstract Methods:
 --------------------------------------
 Abstract Class:
 ---------------
-  An abstract class is a class from which it is not possible to create and object. Abstract classes  simply act as a
-  template for other classes. Look at abstractclass.py under the Abstract folder.
-  Rule:
-  ----
-      1. Every Abstract Class must be derived from ABC class which is present in abc module.
-      2. An abstract class must contain at least one abstract method.
-  Note:
-  ----
-      Abstract classes can contain both abstract as well as non-abstract methods.
+An abstract class is a class from which it is not possible to create and object. Abstract classes  simply act as a
+template for other classes. Look at abstractclass.py under the Abstract folder.
+Rule:
+----
+    1. Every Abstract Class must be derived from ABC class which is present in abc module.
+    2. An abstract class must contain at least one abstract method.
+Note:
+----
+    Abstract classes can contain both abstract as well as non-abstract methods.
 
 Abstract Method:
 ----------------
-  Sometimes we do not know about implementation but still we declare a method. Such methods are called
-  "Abstract Methods." Such methods have declaration but no implementation.In Python we can declare an abstract method
-  by using the @abstractmethod decorator.
+Sometimes we do not know about implementation but still we declare a method. Such methods are called
+"Abstract Methods." Such methods have declaration but no implementation.In Python we can declare an abstract method
+by using the @abstractmethod decorator.
 
 
 Interfaces:
