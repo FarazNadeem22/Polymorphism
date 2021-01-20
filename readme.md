@@ -123,15 +123,15 @@ Abstract Classes and Abstract Methods:
 --------------------------------------
 Abstract Class:
 ---------------
-An abstract class is a class from which it is not possible to create and object. Abstract classes  simply act as a
-template for other classes. Look at abstractclass.py under the Abstract folder.
-Rule:
-----
-    1. Every Abstract Class must be derived from ABC class which is present in abc module.
-    2. An abstract class must contain at least one abstract method.
-Note:
-----
-    Abstract classes can contain both abstract as well as non-abstract methods.
+  An abstract class is a class from which it is not possible to create and object. Abstract classes  simply act as a
+  template for other classes. Look at abstractclass.py under the Abstract folder.
+  Rule:
+  ----
+      1. Every Abstract Class must be derived from ABC class which is present in abc module.
+      2. An abstract class must contain at least one abstract method.
+  Note:
+  ----
+      Abstract classes can contain both abstract as well as non-abstract methods.
 
 Abstract Method:
 ----------------
