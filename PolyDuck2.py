@@ -23,7 +23,7 @@ def f1(object):
     elif hasattr(object,'bark'):
         object.bark()
     else:
-        print("Object Not Found")
+        print("Attribute Not Found")
 
 lst = [Duck(),Dog(),Cat(),Goat()]
 
