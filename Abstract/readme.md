@@ -36,13 +36,14 @@ car.name_of_Vehicle()
 print(car.no_of_wheels())
 bus.name_of_Vehicle()
 print(bus.no_of_wheels())
+```
 
-
-Example Output
+Example Output:
+```python
 The Faraz Car
 4
 8
-
+```
 
 Faraz 
 Creator of Vehicle Abstraction Code
