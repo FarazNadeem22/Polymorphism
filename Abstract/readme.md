@@ -24,7 +24,7 @@ The code consists of two classes:
 ```python
 car = Car()
 bus = Bus()
-
+```
 
 Accessing Methods:
 Call the name_of_Vehicle() method to print the default vehicle name.
